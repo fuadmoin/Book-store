@@ -5,7 +5,7 @@
   <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Title</b></h3>
+  <h3><b>Book Store</b></h3>
 
 </div>
 
@@ -30,26 +30,19 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Math magicians <a name="about-project"></a>
+# 📖 Book Store <a name="about-project"></a>
 
-**Math magicians** is a single page app that uses api for a basic calculator.
+**Book Store** is a single page app that lets user add and remove books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **HTML, CSS, React, and JavaScript**
+- **HTML, React, and JavaScript**
 
 ### Key Features <a name="key-features"></a>
 
-- **html styled with css and javascript**
 - **uses react**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"> </a>
-
-> Check out the live demo for this project [here.](https://fuadmoin.github.io/TODOLIST/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +68,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git https://github.com/fuadmoin/Math-magicians.git
+  git https://github.com/fuadmoin/Book-store.git
 ```
 
 ### Install <a name="install"></a>
@@ -103,7 +96,7 @@ npm test
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using Github-Page.
+You can deploy this project using [Render](https://render.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,13 +114,13 @@ You can deploy this project using Github-Page.
 
 - [ ] **[HTML, CSS, and Javascript will be added]**
 - [ ] **[Api will be added]**
-- [ ] **[users will be able to use the calculator]**
+- [ ] **[users will be able to add and remove books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, [issues](https://github.com/fuadmoin/Math-magicians/issues), and feature requests are welcome!
+Contributions, [issues](https://github.com/fuadmoin/Book-store/issues), and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
