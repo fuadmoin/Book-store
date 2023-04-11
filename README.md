@@ -38,11 +38,12 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **HTML, React, and JavaScript**
+- **HTML, React, JavaScript, and Redux**
 
 ### Key Features <a name="key-features"></a>
 
 - **uses react**
+- **uses redux toolkit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
