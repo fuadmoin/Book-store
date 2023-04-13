@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addBook, removeBook } from '../redux/books/booksSlice';
+import { addBook } from '../redux/books/booksSlice';
 import AddBooks from './addBooks';
-import RemoveBooks from './removeBook';
+import BookList from './BookList';
 
 const Home = () => {
   const books = useSelector((state) => state.book.books);
@@ -11,15 +11,12 @@ const Home = () => {
   const add = (book) => {
     dispatch(addBook(book));
   };
-  const remove = (id) => {
-    dispatch(removeBook(id));
-  };
 
   return (
 
     <div>
 
-      <RemoveBooks books={books} removeBook={remove} />
+      <BookList books={books} />
       <AddBooks addBooks={add} />
     </div>
   );
