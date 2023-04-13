@@ -1,35 +1,23 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { addBook } from '../redux/books/booksSlice';
+import AddBooks from './addBooks';
+import BookList from './BookList';
 
 const Home = () => {
-  const books = [
-    { title: 'Example2', author: 'Hashim' },
-    { title: 'Example3', author: 'Semira' },
-    { title: 'Example4', author: 'Hafsa' },
-    { title: 'Example5', author: 'Fuad' },
-  ];
+  const books = useSelector((state) => state.book.books);
+
+  const dispatch = useDispatch();
+  const add = (book) => {
+    dispatch(addBook(book));
+  };
+
   return (
+
     <div>
 
-      { books.map((book) => (
-        <div key={book.title}>
-          <span>
-            author:
-            {book.author}
-          </span>
-          {' '}
-          <span>
-            title:
-            {book.author}
-          </span>
-          {' '}
-
-        </div>
-      ))}
-      <form>
-        <input type="text" placeholder="author" />
-        <input type="text" placeholder="title" />
-        <button type="submit">Add</button>
-      </form>
+      <BookList books={books} />
+      <AddBooks addBooks={add} />
     </div>
   );
 };
