@@ -15,7 +15,9 @@ const AddBooks = ({ addBooks }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title.trim() && author.trim()) {
-      addBooks({ title, author, id: uuidv4() });
+      addBooks({
+        title, author, item_id: uuidv4(), category: 'Action',
+      });
       setTitle('');
       setAuthor('');
     }
