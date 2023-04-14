@@ -38,12 +38,14 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **HTML, React, JavaScript, and Redux**
+- **HTML, CSS, React, JavaScript, and Redux**
 
 ### Key Features <a name="key-features"></a>
 
-- **uses react**
-- **uses redux toolkit**
+- **Uses React**
+- **Uses Redux toolkit**
+- **React styled with CSS**
+- **Uses API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,9 +115,9 @@ You can deploy this project using [Render](https://render.com/).
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[HTML, CSS, and Javascript will be added]**
-- [ ] **[Api will be added]**
-- [ ] **[users will be able to add and remove books]**
+- [ ] **[Users will be able to add Categories]**
+- [ ] **[Users wiil be able to update progress]**
+- [ ] **[users will be able to edit and comment on the books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

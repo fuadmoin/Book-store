@@ -1,0 +1,261 @@
+.navigation {
+  width: 78.5rem;
+  height: 5.938rem;
+  margin: 0 0 2.375rem;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-li {
+  list-style: none;
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.9px;
+}
+
+.nav span {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0290ff;
+  position: relative;
+  top: 0.5rem;
+}
+
+.logo {
+  width: 1.063rem;
+  height: 1.063rem;
+  position: relative;
+  top: 1.3rem;
+  left: 43.5rem;
+}
+
+.books {
+  width: 70rem;
+  height: 7.75rem;
+  margin: 2.313rem 6.25rem 0;
+  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.title {
+  width: 15.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.author {
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 12.313rem;
+  padding-top: 1.5rem;
+}
+
+.buttons {
+  width: 5.563rem;
+  height: 1.188rem;
+  margin: 0.188rem 0.938rem 0.125rem 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  border-style: hidden;
+  cursor: pointer;
+}
+
+.Oval-2 {
+  width: 4.25rem;
+  height: 4.25rem;
+  border-style: none;
+  border-image-slice: 1;
+  background-image: url(../img/Bookstore\ CMS.png);
+  background-size: cover;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.313rem;
+  padding-top: 3px;
+}
+
+.percentage-number {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  color: #121212;
+}
+
+.percentage-text {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+.current-chapter {
+  display: flex;
+  flex-direction: column;
+  height: 1.188rem;
+  margin: 0.188rem 0.938rem 0.125rem 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #121212;
+}
+
+.current-chapter-text {
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  width: 9rem;
+  font-size: 0.813rem;
+  font-weight: 300;
+}
+
+.current-chapter-number {
+  height: 1.313rem;
+  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+}
+
+.update-progress {
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #fff;
+  border-style: hidden;
+  margin-top: 1.8rem;
+  cursor: pointer;
+}
+
+.form {
+  font-family: Montserrat, sans-serif;
+  padding-left: 6.5rem;
+}
+
+.Title {
+  width: 10.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.addNew {
+  width: 10.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.author-input {
+  width: 32rem;
+  height: 2.813rem;
+  margin-right: 15px;
+  color: #121212;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  background-color: #e8e8e8;
+}
+
+.author-input::placeholder {
+  position: relative;
+  text-align: center;
+  width: 4.75rem;
+  height: 1.188rem;
+  font-size: 1rem;
+  letter-spacing: -0.15px;
+  color: #797676;
+}
+
+.btn-addBook {
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 0 0 0 2.125rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  cursor: pointer;
+  border-style: hidden;
+  position: relative;
+  top: -4px;
+  color: #fff;
+}
+
+.status {
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 10rem 40rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  cursor: pointer;
+  border-style: hidden;
+  color: #fff;
+}
