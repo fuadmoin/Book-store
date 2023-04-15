@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import PropTypes from 'prop-types';
+import './book.css';
 
 const AddBooks = ({ addBooks }) => {
   const [title, setTitle] = useState('');
@@ -25,10 +26,11 @@ const AddBooks = ({ addBooks }) => {
   return (
     <div>
       {' '}
-      <form onSubmit={handleSubmit}>
-        <input name="author" type="text" placeholder="author" value={author} onChange={handleChange} />
-        <input name="title" type="text" placeholder="title" value={title} onChange={handleChange} />
-        <button type="submit">Add</button>
+      <form className="form" onSubmit={handleSubmit}>
+        <h2 className="addNew">ADD NEW BOOK</h2>
+        <input className="author-input" name="author" type="text" placeholder="Author" value={author} onChange={handleChange} />
+        <input className="author-input" name="title" type="text" placeholder="Title" value={title} onChange={handleChange} />
+        <button className="btn-addBook" type="submit">ADD BOOk</button>
       </form>
     </div>
   );

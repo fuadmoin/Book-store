@@ -1,8 +1,9 @@
 import React from 'react';
+import './book.css';
 
 const Categories = () => (
   <div>
-    <button type="button">Status</button>
+    <button className="status" type="button">Status</button>
   </div>
 );
 
