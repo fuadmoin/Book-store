@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FaUser } from 'react-icons/fa';
 import './book.css';
-import { ReactComponent as Logo } from '../img/user-solid.svg';
 
 const links = [
   { path: '/', name: 'Home' },
@@ -25,7 +25,9 @@ const Navigation = () => {
             <NavLink style={navStyle} to={link.path}>{link.name}</NavLink>
           </li>
         ))}
-        <Logo className="logo" />
+        <div className="logo-container">
+          <FaUser className="logo" />
+        </div>
       </ul>
     </div>
   );

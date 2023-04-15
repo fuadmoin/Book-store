@@ -15,6 +15,8 @@ const Home = () => {
     <div>
 
       <BookList />
+      <br />
+      <hr />
       <AddBooks addBooks={add} />
     </div>
   );
